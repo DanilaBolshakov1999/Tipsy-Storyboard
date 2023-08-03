@@ -286,6 +286,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="r01-U2-Y0y"/>
                     <connections>
+                        <outlet property="buttonRecalculate" destination="Lew-W4-n2s" id="Y7Z-8a-0EB"/>
                         <outlet property="settingLabel" destination="jnl-WT-gLt" id="47W-WI-qbJ"/>
                         <outlet property="totalLabel" destination="QgT-kf-heN" id="XSn-Uy-L1b"/>
                     </connections>
