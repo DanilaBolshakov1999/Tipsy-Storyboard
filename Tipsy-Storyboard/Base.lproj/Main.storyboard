@@ -172,7 +172,7 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="calculatePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Ab-RB-vhl"/>
+                                    <action selector="calculateButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Ab-RB-vhl"/>
                                     <segue destination="eUp-Wc-hFF" kind="presentation" identifier="goToResults" id="TIJ-0N-zg5"/>
                                 </connections>
                             </button>
@@ -209,7 +209,7 @@
             <objects>
                 <viewController id="eUp-Wc-hFF" customClass="ResultViewController" customModule="Tipsy_Storyboard" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2w6-lC-m31">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5RY-pp-SxO">
@@ -286,7 +286,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="r01-U2-Y0y"/>
                     <connections>
-                        <outlet property="buttonRecalculate" destination="Lew-W4-n2s" id="Y7Z-8a-0EB"/>
+                        <outlet property="recalculateButton" destination="Lew-W4-n2s" id="Y7Z-8a-0EB"/>
                         <outlet property="settingLabel" destination="jnl-WT-gLt" id="47W-WI-qbJ"/>
                         <outlet property="totalLabel" destination="QgT-kf-heN" id="XSn-Uy-L1b"/>
                     </connections>
